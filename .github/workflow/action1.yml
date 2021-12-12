@@ -11,9 +11,9 @@ on:
      - 'feature/*'
 
 jobs:
-  runs-on: ubuntu-latest
-  name: print hi
+  print-hi:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: say hi
-      run: echo Hi!
+    steps:
+      - name: say hi
+        run: echo Hi!
