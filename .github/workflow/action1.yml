@@ -1,0 +1,19 @@
+name: action1
+
+on:
+  push:
+    branches:
+     - '*'
+     - 'feature/*'
+  pull_request:
+    branches:
+     - '*'
+     - 'feature/*'
+
+jobs:
+  runs-on: ubuntu-latest
+  name: print hi
+
+  steps:
+    - name: say hi
+      run: echo Hi!
