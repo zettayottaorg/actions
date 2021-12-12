@@ -11,7 +11,7 @@ on:
      - 'feature/*'
 
 jobs:
-  print-hi:
+  print_hi:
     runs-on: ubuntu-latest
 
     steps:
